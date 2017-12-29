@@ -7,6 +7,7 @@
 .story-author-info {
   display: flex;
   align-items: center;
+  margin: 15px 0px 10px 0px;
 }
 
 .story-author-image {
@@ -20,3 +21,4 @@
   font-weight: normal;
   margin: 0 0 0 10px;
 }
+

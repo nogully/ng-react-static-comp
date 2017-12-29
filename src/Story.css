@@ -7,7 +7,7 @@
   margin-top: 20px;
 }
 
-.Story img {
+.story-image {
   width: 175px;
 }
 
@@ -34,4 +34,35 @@
   font-weight: lighter;
   line-height: 150%;
   margin: 0;
+}
+
+@media screen and (max-width: 815px){
+  .Story {
+    flex-direction: column;
+    height: 350px;
+
+  }
+
+  .story-image {
+    height: 33%;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .Story {
+    flex-direction: column;
+    height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+
+  }
+
+  .story-image {
+    height: 45%;
+    object-fit: cover;
+    width: 100%;
+  }
+
 }
