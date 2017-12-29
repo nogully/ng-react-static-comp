@@ -21,7 +21,13 @@
 
 .story-info h3 {
   letter-spacing: 1px;
-  margin: 5px;
+  margin: 5px 0px;
+}
+
+.story-info h3:hover {
+  color: lightseagreen;
+  letter-spacing: 1px;
+  margin: 5px 0px;
 }
 
 .story-info p {
